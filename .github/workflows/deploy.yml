@@ -29,5 +29,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs # 這裡必須與您 vite.config.js 的 outDir (docs) 一致
+          publish_dir: docs # 這裡必須與您 vite.config.js 的 outDir (docs) 一致
           cname: '' # 如果您沒有自定義網域，請留空
